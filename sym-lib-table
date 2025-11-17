@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32F746NGH6")(type "KiCad")(uri "${KIPRJMOD}/Libraries/STM32F746NGH6.kicad_sym")(options "")(descr ""))
+  (lib (name "AMS1117-1_2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/AMS1117-1_2.kicad_sym")(options "")(descr ""))
+  (lib (name "ARJM11D7-502-AB-EW2")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ARJM11D7-502-AB-EW2.kicad_sym")(options "")(descr ""))
+  (lib (name "DP83867IRPAPT")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DP83867IRPAPT.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS74701DRCR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/TPS74701DRCR.kicad_sym")(options "")(descr ""))
+)

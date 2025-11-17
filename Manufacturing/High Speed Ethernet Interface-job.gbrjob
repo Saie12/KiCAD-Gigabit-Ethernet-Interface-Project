@@ -1,0 +1,223 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.4"
+    },
+    "CreationDate": "2025-11-15T14:23:56+05:30"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "High Speed Ethernet Interface",
+      "GUID": "48696768-2053-4706-9565-642045746865",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 80.2,
+      "Y": 50.2
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.5565,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.1271,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "High Speed Ethernet Interface-Top Layer.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Ground Layer 2.g1",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Layer 3.g2",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Power Layer 4.g3",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Ground Layer 5.g4",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Bottom Layer.gbl",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Top Overlay.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Board Layer Stack Bottom Overlay.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Top Solder.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Board Layer Stack Bottom Solder.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "High Speed Ethernet Interface-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "R255G53B28",
+      "Thickness": 0.0254,
+      "Material": "a8e03a20-c49d-4109-920c-960e4130ad7f:PSR-4000BN",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.029",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0432,
+      "Name": "Top Layer"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1107,
+      "Material": "FR408-HR 106",
+      "DielectricConstant": "3.23",
+      "LossTangent": "0.011",
+      "Name": "Top Layer/Ground Layer 2",
+      "Notes": "Type: dielectric layer 1 (from Top Layer to Ground Layer 2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0173,
+      "Name": "Ground Layer 2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1016,
+      "Material": "FR408-HR 2113",
+      "DielectricConstant": "3.66",
+      "LossTangent": "0.009",
+      "Name": "Ground Layer 2/Layer 3",
+      "Notes": "Type: dielectric layer 2 (from Ground Layer 2 to Layer 3)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0173,
+      "Name": "Layer 3"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.9256,
+      "Material": "FR408-HR",
+      "DielectricConstant": "3.64",
+      "LossTangent": "0.0098",
+      "Name": "Layer 3/Power Layer 4",
+      "Notes": "Type: dielectric layer 3 (from Layer 3 to Power Layer 4)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0173,
+      "Name": "Power Layer 4"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1016,
+      "Material": "FR408-HR 2113",
+      "DielectricConstant": "3.66",
+      "LossTangent": "0.009",
+      "Name": "Power Layer 4/Ground Layer 5",
+      "Notes": "Type: dielectric layer 4 (from Power Layer 4 to Ground Layer 5)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0173,
+      "Name": "Ground Layer 5"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1107,
+      "Material": "FR408-HR 106",
+      "DielectricConstant": "3.23",
+      "LossTangent": "0.011",
+      "Name": "Ground Layer 5/Bottom Layer",
+      "Notes": "Type: dielectric layer 5 (from Ground Layer 5 to Bottom Layer)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0432,
+      "Name": "Bottom Layer"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "R255G53B28",
+      "Thickness": 0.0254,
+      "Material": "a8e03a20-c49d-4109-920c-960e4130ad7f:PSR-4000BN",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.029",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
